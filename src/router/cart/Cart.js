@@ -13,7 +13,7 @@ function Cart() {
           <div className="flex__img">
               <img className='vvv' width={150} src={item.url} alt="" />
               <div className="div">
-              <p><b>Jo'jacha Ranch  kichkina</b></p>
+              <p><b>{item.title}</b></p>
               <p>Qalin</p>
               </div>
           </div>

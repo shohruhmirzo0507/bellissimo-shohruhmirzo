@@ -25,9 +25,7 @@ function App() {
       <Route path='/single/:id' element={<SingleRoute/>}/>
       <Route path='/page/:id' element={<SinglePage/>}/>
      </Routes>
-      <Banner/>
       <br />
-      <Footer/>
     </div>
   );
 }
